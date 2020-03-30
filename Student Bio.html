@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <style>
+            body {
+                background-color: #efeee7;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #333;
+                padding: 0;
+                margin: 0;
+            }
+            header {
+            background: #333;
+            }
+            /*img {
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }*/
+            
+            h1,h2 {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 60px;
+                text-align: center;
+                margin-bottom: auto;
+                background-color: black;
+                color: white;
+            }
+            ul {
+                text-align: center;
+                font-size: 35px;
+                /* Give an element a solid border. */
+                border-style: solid;
+                /* Render the border 5 pixels thick. */
+                border-width: 5px;
+                /* Include bullets in the content flow. */
+                /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+                list-style-position: inside;
+            }
+         
+            .container {
+            width: 1024px;
+            margin: 0 auto;
+            }
+
+            #main-bio,
+            #contact-info,
+            #bio-image {
+            float: left;
+            }
+
+            #main-bio {
+            width: 70%;
+            }
+
+            #contact-info {
+            width: 30%;
+            }
+
+            #bio-image {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            }*/
+
+            .wrapper > div{
+                background:#eee;
+                padding:1em;
+            }
+            span {
+                background-color: yellow;
+            }
+            strong {
+                color: teal;
+            }
+            .highlight {
+                background-color:thistle;
+            }
+            .inline {
+                display: inline;
+            }
+            p, 
+            ul {
+                border: 2px solid rebeccapurple;
+            }
+            .box {
+            border: 5px solid rebeccapurple;
+            background-color: lightgray;
+            padding: 40px;
+            margin: 40px;
+            width: 300px;
+            height: 150px;
+            }
+
+            .alternate {
+            box-sizing: border-box;
+            }
+            .container {
+            border-top: 5px dotted green;
+            border-right: 1px solid black;
+            border-bottom: 20px double rgb(23,45,145);
+            }
+            span {
+            margin: 20px;
+            padding: 20px;
+            width: 80px;
+            height: 50px;
+            background-color: lightblue;
+            border: 2px solid blue;
+            display: inline-block
+            }
+     
+
+        </style>
+	</head>
+	<body>
+        <header>
+            <h1>Student Bio</h1>
+        </header>
+    <div class="container">
+        <section id="main-bio">
+        
+            <h2><strong>Eda Tuncer</strong></h2>
+            <img  id="bio-image" src="https://media-exp1.licdn.com/dms/image/C5603AQH0RjrzHTSO_A/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=3TbN3p2Y16lSuMeVo9MXSAV0AMWrXTQBHkfK1e1AndM" alt="">
+            <p class="highlight">UX professional who is passionate about research! Studied Industrial Engineering and did a master’s in Industrial Design. 
+            Versatile researcher who aims to achieve an articulate communication with the help of user centered design principles. 
+            Built visual wisdom with 6 years of academic and industry experiences. I have been involved in multiple areas of UX including research, design and strategy. 
+            </p>
+        </section>
+    
+
+<!-- Section 2: Contact Info -->
+<section id="contact-info">
+<!-- h2: Tier-2 Headline -->
+            <h3><strong>Contact Info</strong></h3>
+<!-- Unordered list -->
+        <ul>
+            <li><strong>Email: </strong><a href="mailto:edatezcanli@gmail.com">edatezcanli@gmail.com</a></li>
+            <li><strong>Github: </strong><a href="https://github.com/edatez">github</a></li>
+            <li><strong>Portfolio: </strong><a href="http://edatezcanli.com/">edatezcanli.com</a></li>
+        </ul>
+</section>
+<BR>
+</div>
+        <div class="wrapper">
+            <div>
+              Lorem ipsum dolor sit, <span>amet consectetur adipisicing elit.</span> Repudiandae corporis ducimus accusantium quas maxime necessitatibus distinctio laudantium asperiores. Architecto placeat culpa, tempore atque eaque labore id ratione sed. Quidem, nam optio. Exercitationem sunt totam sit incidunt laborum beatae at pariatur deserunt, natus hic inventore? Doloremque dicta cupiditate magni ipsum quis fuga eligendi corporis aliquam quae ducimus praesentium architecto ad, quasi eius eveniet harum repudiandae dolor magnam debitis mollitia ut? Voluptates repellat distinctio quam provident facilis, ut totam accusantium commodi ducimus.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit. Necessitatibus aut corrupti aspernatur repellendus enim ratione quam accusamus minima, corporis quod voluptate voluptas dolores sapiente ea magnam dicta numquam tenetur. Dolorem.
+            </div>
+        </div>
+
+        <p class="inline">I am a paragraph. A short one. </p>
+        <p class="inline">I am another paragraph. Also a short one.</p>
+
+        <div class="box">I use the standard box model.</div>
+        <div class="box alternate">I use the alternate box model.</div>
+
+        <div class="container">
+            <div class="box">Changing the borders.</div>
+        </div>
+        
+        <p>
+            I am a paragraph and this is a <span>span</span> inside that paragraph. A span is an inline element and so does not respect width and height.
+        </p>     
+      
+            
+    </body>
+</html>
